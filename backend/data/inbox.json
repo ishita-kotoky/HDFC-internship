@@ -1,0 +1,50 @@
+[
+  {
+    "notification_id": "bac83685-92e8-491d-b87c-0820f2a76078",
+    "event_type": "Payment Confirmation",
+    "delivered_via": "Inbox",
+    "attempts": [
+      {
+        "channel": "SMS",
+        "status": "FAILED",
+        "reason": "forced_primary_failure_demo_mode"
+      },
+      {
+        "channel": "Email",
+        "status": "FAILED",
+        "reason": "simulated_failure (fail_prob=0.15)",
+        "fail_prob": 0.15
+      },
+      {
+        "channel": "Inbox",
+        "status": "SUCCESS",
+        "reason": "forced_final_fallback"
+      }
+    ],
+    "timestamp": "2025-12-10T19:19:12.342015+05:30"
+  },
+  {
+    "notification_id": "dbacadd2-6b40-4876-8d10-d299f9e096f5",
+    "event_type": "Payment Confirmation",
+    "delivered_via": "Inbox",
+    "attempts": [
+      {
+        "channel": "SMS",
+        "status": "FAILED",
+        "reason": "forced_primary_failure_demo_mode"
+      },
+      {
+        "channel": "Email",
+        "status": "FAILED",
+        "reason": "simulated_failure (fail_prob=0.15)",
+        "fail_prob": 0.15
+      },
+      {
+        "channel": "Inbox",
+        "status": "SUCCESS",
+        "reason": "forced_final_fallback"
+      }
+    ],
+    "timestamp": "2025-12-10T19:19:20.575179+05:30"
+  }
+]

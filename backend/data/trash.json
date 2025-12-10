@@ -1,0 +1,230 @@
+[
+  {
+    "notification_id": "4b9dce8d-78b4-40e5-8705-0265deeb47f5",
+    "event_type": "OTP",
+    "delivered_via": "Email",
+    "attempts": [
+      {
+        "channel": "SMS",
+        "status": "FAILED",
+        "reason": "forced_primary_failure_demo_mode"
+      },
+      {
+        "channel": "Email",
+        "status": "SUCCESS",
+        "reason": "delivered",
+        "fail_prob": 0.3
+      }
+    ],
+    "timestamp": "2025-12-10T17:34:12.071336+05:30"
+  },
+  {
+    "notification_id": "b7a85223-334b-43f4-86f1-fb09a7515d8b",
+    "event_type": "OTP",
+    "delivered_via": "Email",
+    "attempts": [
+      {
+        "channel": "SMS",
+        "status": "FAILED",
+        "reason": "forced_primary_failure_demo_mode"
+      },
+      {
+        "channel": "Email",
+        "status": "SUCCESS",
+        "reason": "delivered",
+        "fail_prob": 0.3
+      }
+    ],
+    "timestamp": "2025-12-10T17:37:24.903872+05:30"
+  },
+  {
+    "notification_id": "60fd4d64-b396-495b-904c-6c95ecb9ee59",
+    "event_type": "Fraud Alert",
+    "delivered_via": "SMS",
+    "attempts": [
+      {
+        "channel": "SMS",
+        "status": "SUCCESS",
+        "reason": "delivered",
+        "fail_prob": 0.15
+      }
+    ],
+    "timestamp": "2025-12-10T18:51:05.163888+05:30"
+  },
+  {
+    "notification_id": "c5d2340d-2bc8-4ba9-b4d5-9235cdb1d429",
+    "event_type": "OTP",
+    "delivered_via": "SMS",
+    "attempts": [
+      {
+        "channel": "SMS",
+        "status": "SUCCESS",
+        "reason": "delivered",
+        "fail_prob": 0.3
+      }
+    ],
+    "timestamp": "2025-12-10T18:54:28.285794+05:30"
+  },
+  {
+    "notification_id": "739d6c16-53e4-461f-a0d7-e0bb3229b4d2",
+    "event_type": "OTP",
+    "delivered_via": "SMS",
+    "attempts": [
+      {
+        "channel": "SMS",
+        "status": "SUCCESS",
+        "reason": "delivered",
+        "fail_prob": 0.3
+      }
+    ],
+    "timestamp": "2025-12-10T18:57:36.993728+05:30"
+  },
+  {
+    "notification_id": "cfad900a-493d-4a7e-b417-b7eb3840d25c",
+    "event_type": "OTP",
+    "delivered_via": "Inbox",
+    "attempts": [
+      {
+        "channel": "SMS",
+        "status": "FAILED",
+        "reason": "simulated_failure (fail_prob=0.30)",
+        "fail_prob": 0.3
+      },
+      {
+        "channel": "Email",
+        "status": "FAILED",
+        "reason": "simulated_failure (fail_prob=0.30)",
+        "fail_prob": 0.3
+      },
+      {
+        "channel": "Inbox",
+        "status": "SUCCESS",
+        "reason": "forced_final_fallback"
+      }
+    ],
+    "timestamp": "2025-12-10T18:59:15.271185+05:30"
+  },
+  {
+    "notification_id": "09c88f96-196c-4f03-a44c-e473a22b7b71",
+    "event_type": "OTP",
+    "delivered_via": "SMS",
+    "attempts": [
+      {
+        "channel": "SMS",
+        "status": "SUCCESS",
+        "reason": "delivered",
+        "fail_prob": 0.3
+      }
+    ],
+    "timestamp": "2025-12-10T19:01:09.351053+05:30"
+  },
+  {
+    "notification_id": "3cab6130-322c-44db-a6d5-26ec41af0a05",
+    "event_type": "OTP",
+    "delivered_via": "Inbox",
+    "attempts": [
+      {
+        "channel": "SMS",
+        "status": "FAILED",
+        "reason": "simulated_failure (fail_prob=0.30)",
+        "fail_prob": 0.3
+      },
+      {
+        "channel": "Email",
+        "status": "FAILED",
+        "reason": "simulated_failure (fail_prob=0.30)",
+        "fail_prob": 0.3
+      },
+      {
+        "channel": "Inbox",
+        "status": "SUCCESS",
+        "reason": "forced_final_fallback"
+      }
+    ],
+    "timestamp": "2025-12-10T19:03:09.291830+05:30"
+  },
+  {
+    "notification_id": "1202a4fa-e866-40b5-8362-749673adcae3",
+    "event_type": "Payment Confirmation",
+    "delivered_via": "SMS",
+    "attempts": [
+      {
+        "channel": "SMS",
+        "status": "SUCCESS",
+        "reason": "delivered",
+        "fail_prob": 0.15
+      }
+    ],
+    "timestamp": "2025-12-10T19:03:22.169171+05:30"
+  },
+  {
+    "notification_id": "a9f9d869-8441-4772-a6c1-69fd1e409dad",
+    "event_type": "OTP",
+    "delivered_via": "SMS",
+    "attempts": [
+      {
+        "channel": "SMS",
+        "status": "SUCCESS",
+        "reason": "delivered",
+        "fail_prob": 0.3
+      }
+    ],
+    "timestamp": "2025-12-10T19:04:55.404959+05:30"
+  },
+  {
+    "notification_id": "d12dfd6d-0b89-40b0-986d-06d407af5078",
+    "event_type": "OTP",
+    "delivered_via": "SMS",
+    "attempts": [
+      {
+        "channel": "SMS",
+        "status": "SUCCESS",
+        "reason": "delivered",
+        "fail_prob": 0.3
+      }
+    ],
+    "timestamp": "2025-12-10T19:08:29.868148+05:30"
+  },
+  {
+    "notification_id": "0578b710-2369-4248-bec4-8290da3bd266",
+    "event_type": "OTP",
+    "delivered_via": "SMS",
+    "attempts": [
+      {
+        "channel": "SMS",
+        "status": "SUCCESS",
+        "reason": "delivered",
+        "fail_prob": 0.3
+      }
+    ],
+    "timestamp": "2025-12-10T19:09:02.724057+05:30"
+  },
+  {
+    "notification_id": "00144955-cefd-467f-a91d-6c0bd751db00",
+    "event_type": "OTP",
+    "delivered_via": "SMS",
+    "attempts": [
+      {
+        "channel": "SMS",
+        "status": "SUCCESS",
+        "reason": "delivered",
+        "fail_prob": 0.3
+      }
+    ],
+    "timestamp": "2025-12-10T19:09:38.788657+05:30"
+  },
+  {
+    "notification_id": "111b21aa-91e2-43ad-bd6d-520b36aa062e",
+    "event_type": "Payment Confirmation",
+    "delivered_via": "SMS",
+    "attempts": [
+      {
+        "channel": "SMS",
+        "status": "SUCCESS",
+        "reason": "delivered",
+        "fail_prob": 0.15
+      }
+    ],
+    "timestamp": "2025-12-10T19:10:18.979616+05:30"
+  }
+]

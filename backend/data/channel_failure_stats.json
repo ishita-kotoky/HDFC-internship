@@ -1,0 +1,106 @@
+{
+    "Fraud Alert": {
+        "Email": {
+            "total_attempts": 28,
+            "failures": 14,
+            "success": 14,
+            "failure_rate": 0.5
+        },
+        "Push": {
+            "total_attempts": 22,
+            "failures": 14,
+            "success": 8,
+            "failure_rate": 0.6364
+        },
+        "SMS": {
+            "total_attempts": 26,
+            "failures": 12,
+            "success": 14,
+            "failure_rate": 0.4615
+        },
+        "WhatsApp": {
+            "total_attempts": 27,
+            "failures": 15,
+            "success": 12,
+            "failure_rate": 0.5556
+        }
+    },
+    "Monthly Statement": {
+        "Email": {
+            "total_attempts": 28,
+            "failures": 11,
+            "success": 17,
+            "failure_rate": 0.3929
+        },
+        "Push": {
+            "total_attempts": 23,
+            "failures": 9,
+            "success": 14,
+            "failure_rate": 0.3913
+        },
+        "SMS": {
+            "total_attempts": 24,
+            "failures": 17,
+            "success": 7,
+            "failure_rate": 0.7083
+        },
+        "WhatsApp": {
+            "total_attempts": 34,
+            "failures": 15,
+            "success": 19,
+            "failure_rate": 0.4412
+        }
+    },
+    "OTP": {
+        "Email": {
+            "total_attempts": 17,
+            "failures": 8,
+            "success": 9,
+            "failure_rate": 0.4706
+        },
+        "Push": {
+            "total_attempts": 25,
+            "failures": 13,
+            "success": 12,
+            "failure_rate": 0.52
+        },
+        "SMS": {
+            "total_attempts": 28,
+            "failures": 16,
+            "success": 12,
+            "failure_rate": 0.5714
+        },
+        "WhatsApp": {
+            "total_attempts": 29,
+            "failures": 14,
+            "success": 15,
+            "failure_rate": 0.4828
+        }
+    },
+    "Payment Confirmation": {
+        "Email": {
+            "total_attempts": 19,
+            "failures": 11,
+            "success": 8,
+            "failure_rate": 0.5789
+        },
+        "Push": {
+            "total_attempts": 21,
+            "failures": 10,
+            "success": 11,
+            "failure_rate": 0.4762
+        },
+        "SMS": {
+            "total_attempts": 20,
+            "failures": 11,
+            "success": 9,
+            "failure_rate": 0.55
+        },
+        "WhatsApp": {
+            "total_attempts": 35,
+            "failures": 15,
+            "success": 20,
+            "failure_rate": 0.4286
+        }
+    }
+}

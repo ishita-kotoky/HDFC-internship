@@ -1,0 +1,22 @@
+{
+  "OTP": {
+    "intended_channels": ["SMS", "Email"],
+    "retry_percentage": 52.81
+  },
+  "Transaction OTP": {
+    "intended_channels": ["SMS", "Email"],
+    "retry_percentage": 43.43
+  },
+  "Fraud Alert": {
+    "intended_channels": ["Push", "SMS", "Email"],
+    "retry_percentage": 44.66
+  },
+  "Monthly Statement": {
+    "intended_channels": ["Email", "WhatsApp"],
+    "retry_percentage": 58.72
+  },
+  "Payment Confirmation": {
+    "intended_channels": ["Push", "SMS", "Email"],
+    "retry_percentage": 47.37
+  }
+}

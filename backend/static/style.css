@@ -1,0 +1,321 @@
+/* ---------------------------------------------------
+   GLOBAL
+--------------------------------------------------- */
+
+body {
+    margin: 0;
+    font-family: system-ui, Arial, sans-serif;
+    background: #f5f6fa;
+    color: #222;
+}
+
+h1, h2 {
+    margin: 0;
+    font-weight: 600;
+}
+
+/* ---------------------------------------------------
+   TOP NAVBAR — CENTERED TABS
+--------------------------------------------------- */
+
+.top-nav {
+    height: 64px;
+    background: #fff;
+    border-bottom: 1px solid #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-left {
+    display: none; /* Ensures perfect center alignment */
+}
+
+.nav-tabs {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.nav-tab {
+    background: none;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #555;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+
+.nav-tab:hover {
+    background: #f0f1f5;
+}
+
+.nav-tab.active {
+    background: #ececff;
+    color: #4c44d6;
+    font-weight: 600;
+}
+
+/* ---------------------------------------------------
+   MAIN CONTENT CENTERING
+--------------------------------------------------- */
+
+.content {
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tab-content {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* ---------------------------------------------------
+   CARD SYSTEM
+--------------------------------------------------- */
+
+.card-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+.card-box {
+    width: 360px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 0;
+    border: 1px solid #e3e3e8;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+.card-header {
+    padding: 14px;
+    background: #f7f7fb;
+    border-radius: 10px 10px 0 0;
+    font-weight: 600;
+}
+
+.card-content {
+    padding: 18px;
+    text-align: left;
+    font-size: 15px;
+}
+
+/* ---------------------------------------------------
+   INPUTS & BUTTONS
+--------------------------------------------------- */
+
+.input-row {
+    display: flex;
+    gap: 10px;
+}
+
+select {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.primary-btn {
+    background: #4c44d6;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.primary-btn:hover {
+    background: #3e36b8;
+}
+
+.danger-btn {
+    background: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.danger-btn:hover {
+    background: #c73d3d;
+}
+
+.search-input {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    flex: 1;
+    font-size: 14px;
+}
+
+/* ---------------------------------------------------
+   TOGGLE SWITCH
+--------------------------------------------------- */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 46px;
+    height: 22px;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    background: #ccc;
+    top: 0; left: 0;
+    right: 0; bottom: 0;
+    border-radius: 34px;
+    transition: 0.3s ease;
+}
+
+.slider:before {
+    content: "";
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+
+input:checked + .slider {
+    background: #4c44d6;
+}
+
+input:checked + .slider:before {
+    transform: translateX(22px);
+}
+
+.demo-label {
+    font-size: 14px;
+}
+
+/* ---------------------------------------------------
+   INBOX + TRASH
+--------------------------------------------------- */
+
+.inbox-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+#inboxBox,
+#trashBox,
+#attemptsBox {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.secure-msg-card {
+    background: #ffffff;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    border-left: 4px solid #4c44d6;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.msg-header {
+    display: flex;
+    gap: 8px;
+    font-weight: 600;
+}
+
+.msg-description {
+    opacity: 0.85;
+    margin: 8px 0;
+}
+
+.msg-meta {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.7;
+}
+
+.group-title {
+    text-align: center;
+    margin: 20px 0 10px;
+    font-weight: 600;
+}
+
+/* ---------------------------------------------------
+   RAW RESPONSE — FULL CENTER FIX ✔
+--------------------------------------------------- */
+
+#rawContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;  /* Centers the raw card */
+    margin-top: 20px;
+}
+
+.raw-card {
+    width: 100%;
+    max-width: 650px;
+    background: #fff;
+    padding: 0;
+    border-radius: 12px;
+    border: 1px solid #e3e3e8;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+#responseBox {
+    background: #1e1e2f;
+    color: #e4e4e4;
+    padding: 20px;
+    border-radius: 12px;
+    min-height: 300px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.45;
+}
+
+/* ---------------------------------------------------
+   TOAST
+--------------------------------------------------- */
+
+.toast {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #4c44d6;
+    padding: 14px 18px;
+    border-radius: 8px;
+    color: white;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.4s ease;
+}
+
+.toast.show {
+    opacity: 1;
+    transform: translateY(0);
+}
